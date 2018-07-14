@@ -15,10 +15,5 @@ let dogSchema = mongoose.Schema({
   photos: []
 })
 
-let dogPost = mongoos.model('DogPost', dogSchema); // creates schema
+let dogPost = mongoose.model('DogPost', dogSchema); // creates schema
 
-// save repos to database
-let save = () {};
-
-// export save
-module.exports.save = save;
