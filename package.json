@@ -18,5 +18,8 @@
   "homepage": "https://github.com/tonsojun/mvp_project#readme",
   "dependencies": {
     "express": "^4.16.3"
+  },
+  "devDependencies": {
+    "eslint": "^5.1.0"
   }
 }
